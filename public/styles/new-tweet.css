@@ -1,0 +1,26 @@
+.new-tweet {
+    margin: auto;
+    padding: .75em;
+    border-radius: 10px;
+    background-color: #eee;
+    border-color: black;
+    margin-bottom: 1em;
+    opacity: .5;
+}
+
+.new-tweet:hover {
+  opacity: 1;
+}
+
+.counter{
+    float: right;
+}
+
+textarea {
+  padding: .5em;
+  width: 100%;
+}
+
+h2 {
+  border-bottom: 1px solid black;
+}
