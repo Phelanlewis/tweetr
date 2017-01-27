@@ -125,7 +125,6 @@ loadTweets();
  //renderTweets(data);
 
  $("#slideToggle").click(function () {
-   console.log("hello");
     $('.new-tweet').slideToggle();
  });
 
