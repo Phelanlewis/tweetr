@@ -1,0 +1,137 @@
+/*
+ * http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * https://css-tricks.com/international-box-sizing-awareness-day/
+ * Do not modify these two selectors, please
+ */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box; }
+
+/*
+ * Global layout stuff
+ */
+body {
+  margin: 0;
+  background-color: #eee; }
+
+main {
+  padding: 30px;
+  padding-top: 140px;
+  margin: auto;
+  width: 450px;
+  background-color: white; }
+
+/*
+ * Additional CSS can be defined below or in other CSS files, as per instructions
+ */
+body {
+  font-family: "Roboto Condensed";
+  text-align: center; }
+
+main {
+  text-align: left; }
+
+.tweet {
+  text-align: left;
+  font-family: "Roboto Condensed"; }
+
+article:hover {
+  opacity: 1.0; }
+
+article:hover + .icons {
+  display: block; }
+
+.nav-bar {
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  background-color: #00a087;
+  font-color: #e8fdff;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 10; }
+  .nav-bar .compose-box {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #eee;
+    margin: 15px;
+    float: right;
+    padding: 15px; }
+  .nav-bar .logo {
+    padding: 15px;
+    width: 80px;
+    height: 80px;
+    float: left;
+    height: 80px; }
+  .nav-bar .header {
+    display: block;
+    float: left;
+    color: #eee;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 15px;
+    font-size: 30px;
+    float: left; }
+
+.new-tweet:hover {
+  opacity: 1; }
+
+.new-tweet {
+  border-radius: 15px;
+  background-color: #eee;
+  border-color: black;
+  margin: auto;
+  margin-bottom: 15px;
+  opacity: .7;
+  padding: 15px; }
+  .new-tweet .counter {
+    float: right; }
+  .new-tweet h2 {
+    border-bottom: 1px solid black; }
+  .new-tweet textarea {
+    padding: .5em;
+    width: 100%; }
+
+.tweet {
+  margin-bottom: 30px;
+  border-radius: 15px;
+  border: 1px solid #A9A9A9;
+  overflow: hidden;
+  opacity: .7; }
+  .tweet .content-container {
+    padding: 0 0 15px; }
+    .tweet .content-container .content {
+      padding: 30px;
+      line-height: 60px;
+      width: 100%; }
+  .tweet .created_at {
+    float: left;
+    padding: 7.5px; }
+  .tweet footer {
+    padding-top: 15px;
+    border-top: 1px solid black; }
+  .tweet .icons {
+    color: green;
+    display: none;
+    float: right; }
+  .tweet img {
+    display: inline;
+    margin: 7.5px;
+    border-radius: 15px;
+    border: 1px solid black; }
+  .tweet h3 {
+    border-bottom: none;
+    display: inline;
+    line-height: 15px;
+    margin: 0;
+    padding: 15px; }
+  .tweet .handle {
+    float: right;
+    padding: 15px;
+    text-align: right; }
+  .tweet header {
+    height: 70px;
+    background-color: #eee;
+    border-bottom: 1px solid black; }
