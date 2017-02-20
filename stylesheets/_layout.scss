@@ -80,16 +80,15 @@ article:hover + .icons {
       overflow: hidden;
       opacity: .7;
 
-      .content-container {
-        padding: 0 0 $spacing-unit;
+      div.content-container {
+         word-wrap: auto;
 
         .content {
-          padding: $spacing-unit + $spacing-unit;
-          line-height: 4*$spacing-unit;
+          padding: $spacing-unit;
+          word-break: break-all;
           width: 100%;
         }
       }
-
 
       .created_at {
         float: left;
@@ -118,7 +117,7 @@ article:hover + .icons {
         border-bottom: none;
         display: inline;
         line-height: $spacing-unit;
-        margin: 0;
+        margin: $spacing-unit;
         padding: $spacing-unit;
       }
 

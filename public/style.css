@@ -101,10 +101,12 @@ article:hover + .icons {
   overflow: hidden;
   opacity: .7; }
   .tweet .content-container {
-    padding: 0 0 15px; }
+    padding: 15px 15px 15px;
+    overflow: hidden;}
     .tweet .content-container .content {
-      padding: 30px;
-      line-height: 60px;
+
+      white-space:normal;
+      line-height: 30px;
       width: 100%; }
   .tweet .created_at {
     float: left;
@@ -118,15 +120,15 @@ article:hover + .icons {
     float: right; }
   .tweet img {
     display: inline;
+    float: left;
     margin: 7.5px;
     border-radius: 15px;
     border: 1px solid black; }
   .tweet h3 {
     border-bottom: none;
     display: inline;
-    line-height: 15px;
-    margin: 0;
-    padding: 15px; }
+    line-height: 30px;
+    float: left;}
   .tweet .handle {
     float: right;
     padding: 15px;
